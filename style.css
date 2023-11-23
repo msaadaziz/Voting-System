@@ -1,0 +1,82 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background-color: #ecf0f3;
+     font-family: sans-serif;
+     outline: none;
+     
+ }
+
+
+ #heading {
+     font-size: 40px;
+     text-align: center;
+     padding-top: 7%;
+     font-weight: bold;
+     padding-bottom: 1.5rem;
+ }
+  p {
+     font-size: 14px;
+     margin-top: 1rem;
+     font-weight: lighter;
+     color: rgb(200, 0, 0);
+     /* text-align: left */
+ }
+ .box2 {
+     text-align: center;
+     align-content: center;
+     
+ }
+
+ #addFriend {
+     height: 50px;
+     width: 260px;
+     background-color: #ecf0f3;
+     box-shadow: inset -5px -5px 12px #ffff,
+                 inset 5px 5px 12px rgba(0, 0, 0, .16);
+     border: none;
+     border-radius: 30px;
+     color: rgb(70, 70, 74);
+     font-size: 24px;
+     text-align: center;
+     margin: auto;
+     margin-top: 40px;
+     margin-bottom: 30px;
+     padding: 15px;
+  }
+  #addFriend:focus {
+     /* border-bottom: 2px solid #4571f5; */
+     box-shadow: inset -5px -5px 12px #ffffff,
+     inset 5px 5px 12px rgba(48, 133, 203, 0.5);
+  }
+  
+  #output{
+      text-align: center;
+      align-content: center;
+      justify-content: center;
+      margin-left: 40%;
+      margin-top:1.5rem;
+      font-family: serif;
+      font-size: 22px;
+      font-weight:600;
+      color: rgba(0, 0, 0, 0.8);
+  }
+  button {
+     font-size: 14px;
+     font-weight: 550 !important;
+     padding: 14px;
+     background-color: #4571f5;
+     border: none;
+     color: #ffffff;
+     border-radius: 20px;
+     cursor: pointer;
+     margin-left: 1rem;
+     margin-bottom: 1rem;
+  }
+  button:hover{
+     background-color: rgba(0, 0, 0, 0.8);
+  }
+  .indexCells{
+     margin-left: 10%;
+  }
