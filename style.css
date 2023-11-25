@@ -10,7 +10,7 @@
 
 
  #heading {
-     font-size: 40px;
+     font-size: 45px;
      text-align: center;
      padding-top: 7%;
      font-weight: bold;
@@ -40,10 +40,11 @@
      color: rgb(70, 70, 74);
      font-size: 24px;
      text-align: center;
-     margin: auto;
-     margin-top: 40px;
-     margin-bottom: 30px;
-     padding: 15px;
+     /* margin: auto; */
+     /* margin-right: 40px; */
+     margin-top: 20px;
+     margin-bottom: 35px;
+     /* padding: 15px; */
   }
   #addFriend:focus {
      /* border-bottom: 2px solid #4571f5; */
@@ -55,7 +56,7 @@
       text-align: center;
       align-content: center;
       justify-content: center;
-      margin-left: 40%;
+      margin-left: 33.5%;
       margin-top:1.5rem;
       font-family: serif;
       font-size: 22px;
@@ -72,11 +73,35 @@
      border-radius: 20px;
      cursor: pointer;
      margin-left: 1rem;
+     /* margin-right: 2rem; */
      margin-bottom: 1rem;
   }
   button:hover{
      background-color: rgba(0, 0, 0, 0.8);
   }
-  .indexCells{
-     margin-left: 10%;
-  }
+ 
+
+
+  td {
+   padding-top: 7px;
+   padding-left: 4rem;  
+   padding-right: 4rem; 
+   font-size: 20px;
+   font-weight: light;
+
+}
+td:hover {
+   color: #7f7f81; 
+   cursor: pointer;
+
+}
+
+.header-row  {
+   color: rgb(220, 11, 11);
+   font-size: 25px;
+   font-weight: bold;
+   text-decoration:underline;
+
+  
+}
+

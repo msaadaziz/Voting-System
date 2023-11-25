@@ -17,6 +17,7 @@ addNewButton.addEventListener("click", function() {
   }
   function buildPageContent() {
     outputTable.innerHTML = "";
+    
     myArray.forEach(function(name, index) {
         createTableRow(index + 1, name, 0);
       });
@@ -42,4 +43,27 @@ addNewButton.addEventListener("click", function() {
     row.appendChild(votesCell);
     outputTable.appendChild(row);
   }
+  function buildPageContent() {
+    outputTable.innerHTML = "";
+
+    // Create header row
+    const headerRow = document.createElement("tr");
+    headerRow.classList.add("header-row")
+    createTableHeader(headerRow, "Sr.No");
+    createTableHeader(headerRow, "Names");
+    createTableHeader(headerRow, "Votes");
+    outputTable.appendChild(headerRow);
+
+    // Add data rows
+    myArray.forEach(function (name, index) {
+        createTableRow(index + 1, name, 0);
+    });
+}
+
+function createTableHeader(row, text) {
+    const headerCell = document.createElement("th");
+    headerCell.textContent = text;
+    row.appendChild(headerCell);
+}
+
   buildPageContent();
