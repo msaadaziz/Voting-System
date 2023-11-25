@@ -3,8 +3,12 @@ let addFriendInput = document.getElementById("addFriend");
 let addNewButton = document.getElementById("addNew");
 let outputTable = document.getElementById("output");
 addNewButton.addEventListener("click", function() {
-    addFriendToList();
-  });
+  if (addFriendInput.value.trim() === "") {
+      alert("Please enter a name before adding.");
+      return;
+  }
+  addFriendToList();
+});
   function addFriendToList() {
     let newFriend = addFriendInput.value;
     myArray.push(newFriend);
